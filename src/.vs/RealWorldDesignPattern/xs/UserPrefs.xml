@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{22454D7B-CCFD-49B1-BD8A-0A4B7E79F7AA}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Facade/Program.cs">
+    <Files>
+      <File FileName="Facade/Customer.cs" Line="18" Column="1" />
+      <File FileName="Facade/Mortgage.cs" Line="24" Column="34" />
+      <File FileName="Facade/Program.cs" Line="21" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RealWorldDesignPattern" expanded="True">
-            <Node name="Facade" selected="True" />
+            <Node name="Facade" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
