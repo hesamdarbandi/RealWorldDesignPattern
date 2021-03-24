@@ -6,7 +6,14 @@ namespace Observer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            var store = new Store();
+            store.AttacheCustomer(new AppleLovers());
+            store.AttacheCustomer(new GoogleLovers());
+            store.RecieveNewAppleProducts();
+            store.RecieveNewGoogleProducts();
+
+            
         }
     }
 }
