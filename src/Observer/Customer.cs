@@ -8,12 +8,21 @@ namespace Observer
 
     public class AppleLovers : Customer , IObserver
     {
-
+        public void Update(Store store)
+        {
+            if (store.State == 1)
+                Console.WriteLine("hey apple lovers : new apple products receive");
+        }
     }
 
     public class GoogleLovers : Customer , IObserver
     {
-
+        public void Update(Store store)
+        {
+            if (store.State == 2)
+                Console.WriteLine("hey google lovers : new google products receive");
+        }
+        
     }
 
 
@@ -22,5 +31,5 @@ namespace Observer
         void Update(Store store);
     }
 
-    public interface 
+ 
 }

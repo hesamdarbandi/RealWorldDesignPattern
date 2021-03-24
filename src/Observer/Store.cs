@@ -9,7 +9,7 @@ namespace Observer
         // 1 new apple product arrive
         // 2 new google product arrive
 
-        private int State = 0;
+        public int State = 0;
         private readonly List<IObserver> _customers;
         private const string STORE_LABLE = "store";
 
